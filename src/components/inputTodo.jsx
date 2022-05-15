@@ -15,7 +15,7 @@ export const InputTodo = (props) => {
     <div style={style}>
       <input
         disabled={disabled}
-        placeholder="TODOを入力"
+        placeholder="ここにTODOを入力"
         value={todoText}
         onChange={onChange}
       />
